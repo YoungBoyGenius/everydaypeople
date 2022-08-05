@@ -1,0 +1,24 @@
+@media (min-width: 768px) {
+    .news-group {
+        width: 50%;
+    }
+}
+
+.sec3 {
+    background-image: url(/media/darkbg.webp);
+    object-fit: fill;
+}
+
+@keyframes fade-inout {
+    0%{opacity: 1;}
+    100%{opacity: 0;}
+}
+
+.fade-in-fade-out {
+    animation: fade-inout 3s infinite alternate;
+}
+
+.sec4 {
+    background-image: url(/media/conceptbg.jpg);
+    object-fit: fill;
+}
